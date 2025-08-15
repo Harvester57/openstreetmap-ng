@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v5
-      - uses: nixbuild/nix-quick-install-action@v32
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      - uses: nixbuild/nix-quick-install-action@63ca48f939ee3b8d835f4126562537df0fee5b91 # v32
 
       - name: Generate cache key
         run: |
@@ -19,7 +19,7 @@ jobs:
           echo "NIXPKGS_HASH=$nixpkgs_hash" >> $GITHUB_ENV
           echo "CACHE_KEY=${{ runner.os }}-$nixpkgs_hash" >> $GITHUB_ENV
 
-      - uses: nix-community/cache-nix-action@v6
+      - uses: nix-community/cache-nix-action@135667ec418502fa5a3598af6fb9eb733888ce6a # v6.1.3
         with:
           primary-key: nix-${{ env.CACHE_KEY }}
 
@@ -37,7 +37,7 @@ jobs:
           " | tee -a $GITHUB_OUTPUT
 
       - name: Cache files and packages
-        uses: actions/cache@v4
+        uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4.2.4
         with:
           key: pkg-${{ env.CACHE_KEY }}-${{ hashFiles('uv.lock', 'pnpm-lock.yaml') }}
           path: |
