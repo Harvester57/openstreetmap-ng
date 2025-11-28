@@ -25,7 +25,7 @@ importers:
         version: 2.5.3(@types/geojson@7946.0.16)(@xmldom/xmldom@0.8.10)
       '@sentry/browser':
         specifier: latest
-        version: 10.26.0
+        version: 10.27.0
       bootstrap:
         specifier: latest
         version: 5.3.8(@popperjs/core@2.11.8)
@@ -77,16 +77,16 @@ importers:
         version: 4.28.0
       caniuse-lite:
         specifier: latest
-        version: 1.0.30001756
+        version: 1.0.30001757
       core-js:
-        specifier: 3.45.0
-        version: 3.45.0
+        specifier: 3.47.0
+        version: 3.47.0
       i18next-conv:
         specifier: latest
         version: 16.0.0
       prettier:
         specifier: latest
-        version: 3.6.2
+        version: 3.7.1
       sass-embedded:
         specifier: latest
         version: 1.93.3
@@ -1577,28 +1577,28 @@ packages:
   '@rolldown/pluginutils@1.0.0-beta.32':
     resolution: {integrity: sha512-QReCdvxiUZAPkvp1xpAg62IeNzykOFA6syH2CnClif4YmALN1XKpB39XneL80008UbtMShthSVDKmrx05N1q/g==}
 
-  '@sentry-internal/browser-utils@10.26.0':
-    resolution: {integrity: sha512-rPg1+JZlfp912pZONQAWZzbSaZ9L6R2VrMcCEa+2e2Gqk9um4b+LqF5RQWZsbt5Z0n0azSy/KQ6zAe/zTPXSOg==}
+  '@sentry-internal/browser-utils@10.27.0':
+    resolution: {integrity: sha512-17tO6AXP+rmVQtLJ3ROQJF2UlFmvMWp7/8RDT5x9VM0w0tY31z8Twc0gw2KA7tcDxa5AaHDUbf9heOf+R6G6ow==}
     engines: {node: '>=18'}
 
-  '@sentry-internal/feedback@10.26.0':
-    resolution: {integrity: sha512-0vk9eQP0CXD7Y2WkcCIWHaAqnXOAi18/GupgWLnbB2kuQVYVtStWxtW+OWRe8W/XwSnZ5m6JBTVeokuk/O16DQ==}
+  '@sentry-internal/feedback@10.27.0':
+    resolution: {integrity: sha512-UecsIDJcv7VBwycge/MDvgSRxzevDdcItE1i0KSwlPz00rVVxLY9kV28PJ4I2E7r6/cIaP9BkbWegCEcv09NuA==}
     engines: {node: '>=18'}
 
-  '@sentry-internal/replay-canvas@10.26.0':
-    resolution: {integrity: sha512-vs7d/P+8M1L1JVAhhJx2wo15QDhqAipnEQvuRZ6PV7LUcS1un9/Vx49FMxpIkx6JcKADJVwtXrS1sX2hoNT/kw==}
+  '@sentry-internal/replay-canvas@10.27.0':
+    resolution: {integrity: sha512-inhsRYSVBpu3BI1kZphXj6uB59baJpYdyHeIPCiTfdFNBE5tngNH0HS/aedZ1g9zICw290lwvpuyrWJqp4VBng==}
     engines: {node: '>=18'}
 
-  '@sentry-internal/replay@10.26.0':
-    resolution: {integrity: sha512-FMySQnY2/p0dVtFUBgUO+aMdK2ovqnd7Q/AkvMQUsN/5ulyj6KZx3JX3CqOqRtAr1izoCe4Kh2pi5t//sQmvsg==}
+  '@sentry-internal/replay@10.27.0':
+    resolution: {integrity: sha512-tKSzHq1hNzB619Ssrqo25cqdQJ84R3xSSLsUWEnkGO/wcXJvpZy94gwdoS+KmH18BB1iRRRGtnMxZcUkiPSesw==}
     engines: {node: '>=18'}
 
-  '@sentry/browser@10.26.0':
-    resolution: {integrity: sha512-uvV4hnkt8bh8yP0disJ0fszy8FdnkyGtzyIVKdeQZbNUefwbDhd3H0KJrAHhJ5ocULMH3B+dipdPmw2QXbEflg==}
+  '@sentry/browser@10.27.0':
+    resolution: {integrity: sha512-G8q362DdKp9y1b5qkQEmhTFzyWTOVB0ps1rflok0N6bVA75IEmSDX1pqJsNuY3qy14VsVHYVwQBJQsNltQLS0g==}
     engines: {node: '>=18'}
 
-  '@sentry/core@10.26.0':
-    resolution: {integrity: sha512-TjDe5QI37SLuV0q3nMOH8JcPZhv2e85FALaQMIhRILH9Ce6G7xW5GSjmH91NUVq8yc3XtiqYlz/EenEZActc4Q==}
+  '@sentry/core@10.27.0':
+    resolution: {integrity: sha512-Zc68kdH7tWTDtDbV1zWIbo3Jv0fHAU2NsF5aD2qamypKgfSIMSbWVxd22qZyDBkaX8gWIPm/0Sgx6aRXRBXrYQ==}
     engines: {node: '>=18'}
 
   '@shaderfrog/glsl-parser@2.1.5':
@@ -1901,8 +1901,8 @@ packages:
   camelize@1.0.1:
     resolution: {integrity: sha512-dU+Tx2fsypxTgtLoE36npi3UqcjSSMNYfkqgmoEhtZrraP5VWq0K7FkWVTYa8eMPtnU/G2txVsfdCJTn9uzpuQ==}
 
-  caniuse-lite@1.0.30001756:
-    resolution: {integrity: sha512-4HnCNKbMLkLdhJz3TToeVWHSnfJvPaq6vu/eRP0Ahub/07n484XHhBF5AJoSGHdVrS8tKFauUQz8Bp9P7LVx7A==}
+  caniuse-lite@1.0.30001757:
+    resolution: {integrity: sha512-r0nnL/I28Zi/yjk1el6ilj27tKcdjLsNqAOZr0yVjWPrSQyHgKI2INaEWw21bAQSv2LXRt1XuCS/GomNpWOxsQ==}
 
   chai@5.2.1:
     resolution: {integrity: sha512-5nFxhUrX0PqtyogoYOA8IPswy5sZFTOsBFl/9bNsmDLgsxYTzSZQJDPppDnZPTQbzSEm0hqGjWPzRemQCYbD6A==}
@@ -1979,8 +1979,8 @@ packages:
   core-js-compat@3.45.0:
     resolution: {integrity: sha512-gRoVMBawZg0OnxaVv3zpqLLxaHmsubEGyTnqdpI/CEBvX4JadI1dMSHxagThprYRtSVbuQxvi6iUatdPxohHpA==}
 
-  core-js@3.45.0:
-    resolution: {integrity: sha512-c2KZL9lP4DjkN3hk/an4pWn5b5ZefhRJnAc42n6LJ19kSnbeRbdQZE5dSeE2LBol1OwJD3X1BQvFTAsa8ReeDA==}
+  core-js@3.47.0:
+    resolution: {integrity: sha512-c3Q2VVkGAUyupsjRnaNX6u8Dq2vAdzm9iuPj5FW0fRxzlxgq9Q39MDq10IvmQSpLgHQNyQzQmOo6bgGHmH3NNg==}
 
   d3-array@3.2.4:
     resolution: {integrity: sha512-tdQAmyA18i4J7wprpYq8ClcxZy3SC31QMeByyCFyRt7BVHdREQZ5lpzoe5mFEYZUWe+oq8HBvk9JjpibyEV4Jg==}
@@ -2800,8 +2800,8 @@ packages:
   potpack@2.1.0:
     resolution: {integrity: sha512-pcaShQc1Shq0y+E7GqJqvZj8DTthWV1KeHGdi0Z6IAin2Oi3JnLCOfwnCo84qc+HAp52wT9nK9H7FAJp5a44GQ==}
 
-  prettier@3.6.2:
-    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
+  prettier@3.7.1:
+    resolution: {integrity: sha512-RWKXE4qB3u5Z6yz7omJkjWwmTfLdcbv44jUVHC5NpfXwFGzvpQM798FGv/6WNK879tc+Cn0AAyherCl1KjbyZQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4954,33 +4954,33 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.0-beta.32': {}
 
-  '@sentry-internal/browser-utils@10.26.0':
+  '@sentry-internal/browser-utils@10.27.0':
     dependencies:
-      '@sentry/core': 10.26.0
+      '@sentry/core': 10.27.0
 
-  '@sentry-internal/feedback@10.26.0':
+  '@sentry-internal/feedback@10.27.0':
     dependencies:
-      '@sentry/core': 10.26.0
+      '@sentry/core': 10.27.0
 
-  '@sentry-internal/replay-canvas@10.26.0':
+  '@sentry-internal/replay-canvas@10.27.0':
     dependencies:
-      '@sentry-internal/replay': 10.26.0
-      '@sentry/core': 10.26.0
+      '@sentry-internal/replay': 10.27.0
+      '@sentry/core': 10.27.0
 
-  '@sentry-internal/replay@10.26.0':
+  '@sentry-internal/replay@10.27.0':
     dependencies:
-      '@sentry-internal/browser-utils': 10.26.0
-      '@sentry/core': 10.26.0
+      '@sentry-internal/browser-utils': 10.27.0
+      '@sentry/core': 10.27.0
 
-  '@sentry/browser@10.26.0':
+  '@sentry/browser@10.27.0':
     dependencies:
-      '@sentry-internal/browser-utils': 10.26.0
-      '@sentry-internal/feedback': 10.26.0
-      '@sentry-internal/replay': 10.26.0
-      '@sentry-internal/replay-canvas': 10.26.0
-      '@sentry/core': 10.26.0
+      '@sentry-internal/browser-utils': 10.27.0
+      '@sentry-internal/feedback': 10.27.0
+      '@sentry-internal/replay': 10.27.0
+      '@sentry-internal/replay-canvas': 10.27.0
+      '@sentry/core': 10.27.0
 
-  '@sentry/core@10.26.0': {}
+  '@sentry/core@10.27.0': {}
 
   '@shaderfrog/glsl-parser@2.1.5': {}
 
@@ -5103,7 +5103,7 @@ snapshots:
       babel-plugin-polyfill-regenerator: 0.6.5(@babel/core@7.28.0)
       browserslist: 4.28.0
       browserslist-to-esbuild: 2.1.1(browserslist@4.28.0)
-      core-js: 3.45.0
+      core-js: 3.47.0
       magic-string: 0.30.17
       regenerator-runtime: 0.14.1
       systemjs: 6.15.1
@@ -5205,7 +5205,7 @@ snapshots:
   autoprefixer@10.4.22(postcss@8.5.6):
     dependencies:
       browserslist: 4.28.0
-      caniuse-lite: 1.0.30001756
+      caniuse-lite: 1.0.30001757
       fraction.js: 5.3.4
       normalize-range: 0.1.2
       picocolors: 1.1.1
@@ -5276,7 +5276,7 @@ snapshots:
   browserslist@4.28.0:
     dependencies:
       baseline-browser-mapping: 2.8.29
-      caniuse-lite: 1.0.30001756
+      caniuse-lite: 1.0.30001757
       electron-to-chromium: 1.5.256
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.28.0)
@@ -5305,7 +5305,7 @@ snapshots:
 
   camelize@1.0.1: {}
 
-  caniuse-lite@1.0.30001756: {}
+  caniuse-lite@1.0.30001757: {}
 
   chai@5.2.1:
     dependencies:
@@ -5376,7 +5376,7 @@ snapshots:
     dependencies:
       browserslist: 4.28.0
 
-  core-js@3.45.0: {}
+  core-js@3.47.0: {}
 
   d3-array@3.2.4:
     dependencies:
@@ -6233,7 +6233,7 @@ snapshots:
 
   potpack@2.1.0: {}
 
-  prettier@3.6.2: {}
+  prettier@3.7.1: {}
 
   process@0.11.10: {}
 
