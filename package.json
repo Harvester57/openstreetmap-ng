@@ -27,7 +27,7 @@
     "autoprefixer": "latest",
     "browserslist": "latest",
     "caniuse-lite": "latest",
-    "core-js": "3.45.0",
+    "core-js": "3.47.0",
     "i18next-conv": "latest",
     "prettier": "latest",
     "sass-embedded": "latest",
