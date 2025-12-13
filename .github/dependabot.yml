@@ -1,0 +1,47 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    commit-message:
+      prefix: "actions"
+    schedule:
+      interval: "weekly"
+    groups:
+      actions-dependencies:
+        applies-to: version-updates
+        patterns:
+        - "*"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    commit-message:
+      prefix: "npm"
+      prefix-development: "npm-dev"
+    schedule:
+      interval: "weekly"
+    groups:
+      npm-prod-dependencies:
+        applies-to: version-updates
+        dependency-type: "production"
+      npm-dev-dependencies:
+        dependency-type: "development"
+        applies-to: version-updates
+    versioning-strategy: increase-if-necessary
+
+  - package-ecosystem: "pip"
+    directory: "/"
+    commit-message:
+      prefix: "pip"
+      prefix-development: "pip-dev"
+    schedule:
+      interval: "weekly"
+    groups:
+      pip-dev-dependencies:
+        applies-to: version-updates
+        dependency-type: "development"
+      pip-prod-dependencies:
+        applies-to: version-updates
+        dependency-type: "production"
+    allow:
+      - dependency-type: all
+    versioning-strategy: increase-if-necessary
