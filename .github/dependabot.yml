@@ -23,10 +23,15 @@ updates:
       npm-prod-dependencies:
         applies-to: version-updates
         dependency-type: "production"
+        update-types:
+          - "minor"
+          - "patch"
       npm-dev-dependencies:
         dependency-type: "development"
         applies-to: version-updates
-    versioning-strategy: increase-if-necessary
+        update-types:
+          - "minor"
+          - "patch"
 
   - package-ecosystem: "pip"
     directory: "/"
