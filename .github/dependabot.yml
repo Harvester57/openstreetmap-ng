@@ -35,9 +35,15 @@ updates:
       pip-dev-dependencies:
         applies-to: version-updates
         dependency-type: "development"
+        update-types:
+          - "minor"
+          - "patch"
       pip-prod-dependencies:
         applies-to: version-updates
         dependency-type: "production"
+        update-types:
+          - "minor"
+          - "patch"
     allow:
       - dependency-type: all
-    versioning-strategy: increase-if-necessary
+      
