@@ -20,7 +20,6 @@ updates:
       interval: "weekly"
     groups:
       npm-dependencies:
-        applies-to: *
         update-types:
           - "minor"
           - "patch"
