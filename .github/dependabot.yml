@@ -42,7 +42,6 @@ updates:
         applies-to: version-updates
         dependency-type: "production"
         update-types:
-          - "minor"
           - "patch"
     allow:
       - dependency-type: all
