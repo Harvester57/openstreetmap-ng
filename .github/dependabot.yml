@@ -16,19 +16,11 @@ updates:
     directory: "/"
     commit-message:
       prefix: "npm"
-      prefix-development: "npm-dev"
     schedule:
       interval: "weekly"
     groups:
-      npm-prod-dependencies:
-        applies-to: version-updates
-        dependency-type: "production"
-        update-types:
-          - "minor"
-          - "patch"
-      npm-dev-dependencies:
-        dependency-type: "development"
-        applies-to: version-updates
+      npm-dependencies:
+        applies-to: *
         update-types:
           - "minor"
           - "patch"
