@@ -35,7 +35,7 @@ dependencies = [
   "phonenumbers",
   "pillow",
   "polyline-rs",
-  "protobuf==6.33.1",
+  "protobuf==6.33.5",
   "psycopg[binary,pool]",
   "pyarrow",
   "pycryptodome",
