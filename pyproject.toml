@@ -55,7 +55,7 @@ dependencies = [
   "speedup",
   "starlette-compress",
   "torch==2.8.0",
-  "torchvision==0.23.0",
+  "torchvision==0.25.0",
   "transformers[timm,vision]",
   "uvicorn[standard]",
   "zid",
