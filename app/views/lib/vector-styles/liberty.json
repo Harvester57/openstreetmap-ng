@@ -31,6 +31,18 @@
       "type": "raster"
     },
     {
+      "filter": [
+        "match",
+        [
+          "geometry-type"
+        ],
+        [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        true,
+        false
+      ],
       "id": "park",
       "paint": {
         "fill-color": "#d8e8c8",
@@ -42,6 +54,18 @@
       "type": "fill"
     },
     {
+      "filter": [
+        "match",
+        [
+          "geometry-type"
+        ],
+        [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        true,
+        false
+      ],
       "id": "park_outline",
       "paint": {
         "line-color": "rgba(228, 241, 215, 1)",
@@ -3908,6 +3932,13 @@
       "type": "fill"
     },
     {
+      "filter": [
+        "!",
+        [
+          "has",
+          "hide_3d"
+        ]
+      ],
       "id": "building-3d",
       "minzoom": 14,
       "paint": {
@@ -3929,6 +3960,17 @@
     {
       "filter": [
         "all",
+        [
+          "==",
+          [
+            "typeof",
+            [
+              "get",
+              "admin_level"
+            ]
+          ],
+          "number"
+        ],
         [
           ">=",
           [
